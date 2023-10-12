@@ -1,0 +1,15 @@
+
+p{
+    width: 35%;
+    color: darkblue;
+    margin: 20px auto;
+    background-color: lightgray;
+    border: 2px solid rgb(41, 41, 92);
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    color: steelblue;
+    text-decoration: underline;
+}
