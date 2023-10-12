@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Mono&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a{
     text-align: center;
     color: #E4FDE1;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -26,6 +30,9 @@ main section{
 }
 body{
     background-color: #FFBF46;
+    font-size: 22px;
+    margin:0;
+    padding:0;
 }
 header{
     background-color: #648381;
@@ -39,6 +46,10 @@ nav a:hover{
     background-color: #E4FDE1;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #E4FDE1;
@@ -54,6 +65,8 @@ footer{
 
 .home-title{
     color: black;
+    font-family: "Croissant One", Arial, sans-serif;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -61,9 +74,13 @@ h4{
 
 .msg h2{
     color: black;
+    font-family: "Croissant One", Arial, sans-serif;
+    font-size: 2em;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color:black;
@@ -79,6 +96,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -91,4 +109,37 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+h2{
+    font-family: "Croissant One", Arial, sans-serif;
+    margin:0;
+}
+
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card .camping-card .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #E4FDE1;
+}
+
+main section img{
+    box-sizing: border-box;
 }
