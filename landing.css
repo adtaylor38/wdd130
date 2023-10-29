@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: black;
+}
+a{
+    width: 100%;
+    margin: 20px;
+    grid-row: 2/3;
+    color: white;
+    
+   
+}
+
+a:hover{
+    color: aqua;
+}
+
+h1{
+    grid-row: 1/2;
+    color:aliceblue;
+    
+}
