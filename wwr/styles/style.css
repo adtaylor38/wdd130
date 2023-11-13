@@ -220,7 +220,7 @@ main section img{
     display: grid;
     
     grid-template-columns: repeat(2, 1fr);
-    
+     background-color: #E4FDE1;
     
     
 }
@@ -249,7 +249,19 @@ main section img{
 
 }
 
-
+body.rivers{
+    background-color: #E4FDE1;
+}
+#hero-msg-rivers{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg-rivers h1, h4{
+    text-align: center;
+    color: #FFBF46;
+    text-decoration: solid;
+}
 
 
 @media screen and (max-width: 900px) {
