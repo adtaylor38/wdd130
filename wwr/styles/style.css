@@ -216,6 +216,42 @@ main section img{
     grid-row: 2/3;
 }
 
+.book-grid{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    
+}
+.canyon3{
+    
+    border:15px;
+    min-width: 0;
+    max-width: 1fr;
+}
+.canyon6{
+    
+    border: 5px;
+    min-width: 0;
+}
+.desolation{
+    border:5px;
+    min-width: 0;
+}
+.salmon{
+    border:5px;
+    min-width: 0;
+}
+#grand_canyon6, #grand_canyon3, #salmon5, #desolation6{
+    width: 60%;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
