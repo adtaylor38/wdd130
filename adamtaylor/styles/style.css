@@ -1,0 +1,17 @@
+header{
+    background-color: #93BEDF;
+    display: grid;
+    grid-template-columns: 250px auto;
+    opacity: 80%;
+
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav:hover{
+    background-color: #8EF9F3;
+    color: black;
+}
