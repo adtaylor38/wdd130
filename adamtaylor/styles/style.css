@@ -6,12 +6,3 @@ header{
 
 
 
-nav{
-    display:flex;
-    justify-content: space-around;
-}
-
-nav:hover{
-    background-color: #8EF9F3;
-    color: black;
-}
