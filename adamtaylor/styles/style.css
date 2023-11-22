@@ -4,15 +4,20 @@
 header{
     background-color: #8377D1;
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 180px auto;
     opacity: 80%;
     height: 100px;
+    border-color:#5EFC8D;
+    border-radius: 15px;
+    border-width: 15px;
 }
 
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-content: center;
+    text-align: center;
+
 
 }
 .logo{
@@ -35,10 +40,11 @@ nav a:hover{
 h1{
     padding-top: 50px;
     font-family: Pacifico;
-    color: #8377D1;
+    color: black;
     text-align: center;
     background-color: #5EFC8D;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
     
 }
 body{
@@ -63,6 +69,7 @@ body{
     border-radius: 35px;
     padding-left: 25px;
     order: -1;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .adam-paragraph{
@@ -85,6 +92,7 @@ body{
     width: 100%;
     grid-column: 7/10;
     grid-row: 7/10;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .scientist-link-picture{
@@ -148,3 +156,11 @@ footer p{
     font-size: 20px;
     font-family: "Playfair Display";
 }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    }
