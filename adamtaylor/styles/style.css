@@ -37,6 +37,9 @@ h1{
     font-family: Pacifico;
     color: #8377D1;
     text-align: center;
+    background-color: #5EFC8D;
+    border-radius: 15px;
+    
 }
 body{
     background-color: #93BEDF;
@@ -45,7 +48,7 @@ body{
 .adam {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 
 #adam {
@@ -67,7 +70,7 @@ body{
     grid-row: 2/7;
     font-family: "Playfair Display";
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     background-color: #0e3b48;
     padding-top: 35px;
     padding-left: 50px;
@@ -80,19 +83,17 @@ body{
 
 .boy-reading-picture{
     width: 100%;
-    grid-column: 5/10;
+    grid-column: 7/10;
     grid-row: 7/10;
 }
 
 .scientist-link-picture{
     width: 100%;
-    margin: 15px;
     grid-column: 1/2;
 }
 
 .engineer-link-picture{
     width:100%;
-    margin: 15px;
     grid-column: 3/4;
 }
 
@@ -118,12 +119,13 @@ footer{
 }
 
 .facebook-link{
-    max-height: 60px;
+    max-height: 70px;
     width: 100%;
     grid-column: 9/10;
+    padding-top: 15px;
 }
 footer img{
-    max-height: 60px;
+    max-height: 70px;
     
 }
 
@@ -133,12 +135,16 @@ footer p{
     max-height: 15px;
     grid-column: 1/4;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .bottom-links-home{
-    grid-column: 2/4;
-    grid-row: 9/10;
+    grid-column: 3/6;
+    grid-row: 7/8;
     max-height: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Playfair Display";
 }
